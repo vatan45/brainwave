@@ -1,7 +1,7 @@
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
-import PricingList from "./PricingList";
+
 import { LeftLine, RightLine } from "./design/Pricing";
 
 const Pricing = () => {
@@ -28,23 +28,19 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
+          tag="Get started with Kscale labs"
           title="Pay once, use forever"
         />
 
-        <div className="relative">
-          <PricingList />
-          <LeftLine />
-          <RightLine />
-        </div>
 
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="mailto:ben@Kscale.dev?subject=Mail%20for%20Details&body=Please%20provide%20more%20information%20about..."
           >
-            See the full details
+            Mail for details
           </a>
+
         </div>
       </div>
     </Section>
